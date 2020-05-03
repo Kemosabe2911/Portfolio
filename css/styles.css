@@ -60,7 +60,7 @@ nav ul a{
 
 
 
-.toggle{
+#toggle{
     cursor: pointer;
     margin-bottom: 10px;
 }
@@ -94,7 +94,7 @@ nav ul a{
         display: block;
         width: auto;
     }
-    .toggle{
+    #toggle{
         display: none;
     }
     .logo{
