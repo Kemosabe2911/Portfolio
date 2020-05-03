@@ -70,6 +70,7 @@ nav ul a{
     height: 3.5px;
     position: relative;
     width: 22px;
+    transition: 0.5s;
 }
 .bars::before,.bars::after{
     background: #ffffff;
@@ -78,6 +79,7 @@ nav ul a{
     height: 3.5px;
     position: absolute;
     width: 22px;
+    transition: 0.5s;
 }
 .bars::before{
     top: 6px;
@@ -86,10 +88,17 @@ nav ul a{
     top: -6px;
 }
 
-.bars.close{
-    transform: rotate(180deg);
+.toggle.close .bars{
+    background: rgba(0, 0, 0, 0);
 }
-
+.toggle.close .bars::before{
+    top: 0;
+    transform: rotate(45deg);
+}
+.toggle.close .bars::after{
+    top: 0;
+    transform: rotate(135deg);
+}
 
 
 
