@@ -62,27 +62,28 @@ nav ul a{
 
 .toggle{
     cursor: pointer;
+    margin-bottom: 10px;
 }
 .bars{
     background: #ffffff ;
     display: inline-block;
-    height: 2px;
+    height: 3.5px;
     position: relative;
-    width: 18px;
+    width: 22px;
 }
 .bars::before,.bars::after{
     background: #ffffff;
     content: '';
     display: inline-block;
-    height: 2px;
+    height: 3.5px;
     position: absolute;
-    width: 18px;
+    width: 22px;
 }
 .bars::before{
-    top: 5px;
+    top: 6px;
 }
 .bars::after{
-    top: -5px;
+    top: -6px;
 }
 
 
