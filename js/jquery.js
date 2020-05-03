@@ -1,5 +1,5 @@
 $(function() {
-    $(".toggle").on("click",function(){
+    $("#toggle").on("click",function(){
         if($(".item").hasClass("active")){
             $(".item").removeClass("active");
         }
