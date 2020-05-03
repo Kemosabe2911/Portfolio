@@ -1,3 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    padding: 5px 20px;
+    background: #000000;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
 
 @keyframes rubberBand {
     from {
