@@ -1,3 +1,5 @@
+//Mobile View
+
 $(function() {
     $(".toggle").on("click",function(){
         if($(".item").hasClass("active")){
@@ -8,6 +10,9 @@ $(function() {
         }
     })
 });
+
+
+//Close Button
 $(document).ready(function(){
     $('.toggle').click(function(){
         $('.toggle').toggleClass('close');
