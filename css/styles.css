@@ -18,14 +18,20 @@ nav ul a{
     text-decoration: none;
 }
 .menu li{
-    font-size: 16px;
+    font-size: 20px;
     padding: 15px 5px;
 }
 .menu li a{
     display: block;
+    text-transform: uppercase;
+}
+.menu .item a:hover{
+    animation-name: rubberBand;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
 }
 .logo a{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -36,9 +42,26 @@ nav ul a{
     justify-content: space-between;
     align-items: center;
 }
+.toggle{
+    order: 1;
+}
+.item{
+    width: 100%;
+    text-align: center;
+    order: 2;
+    display: none;
+}
+.item.active{
+    display: block;
+}
+
+
+
+
+
 
 .toggle{
-
+    cursor: pointer;
 }
 .bars{
     background: #ffffff ;
@@ -60,6 +83,30 @@ nav ul a{
 }
 .bars::after{
     top: -5px;
+}
+
+
+
+
+@media(min-width: 768px){
+    .item{
+        display: block;
+        width: auto;
+    }
+    .toggle{
+        display: none;
+    }
+    .logo{
+        order: 0;
+        flex: 8;
+    }
+    .item{
+        order: 1;
+        flex: 0;
+    }
+    .menu li{
+        padding: 15px 25px;
+    } 
 }
 
 
