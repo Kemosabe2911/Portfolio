@@ -7,8 +7,9 @@
 body{
     font-family: sans-serif;
 }
-#Home{
+.cover{
     height: 100%;
+    min-height: 100%;
 }
 nav{
     padding: 5px 20px;
@@ -155,10 +156,18 @@ nav ul a{
 
 
 /*Home Section*/
-.intro{
-    background: yellow;
+.main-info-section{
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    /*background: url('https://scontent.fccj1-1.fna.fbcdn.net/v/t1.0-9/53921466_714985862231398_216298422792093696_o.jpg?_nc_cat=100&_nc_sid=dd7718&_nc_ohc=t-wPIbSOWcsAX-RbwNb&_nc_ht=scontent.fccj1-1.fna&oh=ed0bc2db5b3699b79b7fe44f75f63d87&oe=5ED625E6') no-repeat;*/
 }
 
+.intro{
+    text-align: center;
+    
+}
 
 
 
