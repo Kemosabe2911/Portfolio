@@ -7,6 +7,9 @@
 body{
     font-family: sans-serif;
 }
+#Home{
+    height: 100%;
+}
 nav{
     padding: 5px 20px;
     background: #000000;
@@ -150,6 +153,11 @@ nav ul a{
     }
 }
 
+
+/*Home Section*/
+.intro{
+    background: yellow;
+}
 
 
 
