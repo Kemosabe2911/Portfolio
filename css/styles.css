@@ -27,9 +27,13 @@ nav ul a{
     text-transform: uppercase;
 }
 .menu .item a:hover{
+    color: teal;
+}
+.menu .k-name a:hover{
     animation-name: rubberBand;
     animation-duration: 2s;
     animation-delay: 0.5s;
+    color: red;
 }
 .logo a{
     font-size: 25px;
@@ -55,7 +59,7 @@ nav ul a{
     font-family: 'Noto Sans JP', sans-serif;
 }
 .item.active{
-    transition: 0.5s;
+    transition: 1s;
     display: block;
 }
 .image-1{
@@ -66,6 +70,9 @@ nav ul a{
     height: 200px;
     border-radius: 50%;
     cursor: pointer;
+}
+.k-name{
+    font-family: 'Pacifico', cursive;
 }
 
 
@@ -136,6 +143,9 @@ nav ul a{
         padding: 15px 25px;
     } 
     .image-1{
+        display: none;
+    }
+    .k-name{
         display: none;
     }
 }
