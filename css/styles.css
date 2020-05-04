@@ -39,7 +39,8 @@ nav ul a{
     text-transform: uppercase;
 }
 .menu .item a:hover{
-    color: teal;
+    color: #000000;
+    transition: 1s;
 }
 .menu .k-name a:hover{
     animation-name: rubberBand;
