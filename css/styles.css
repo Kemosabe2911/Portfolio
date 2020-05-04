@@ -263,6 +263,12 @@ nav ul a{
     text-align: center;
     color: #000000;
 }
+.intro h1{
+    font-size: 4em;
+    margin-top: 3em;
+}
+.intro h1 span{
+}
 
 
 
@@ -295,5 +301,13 @@ nav ul a{
   
     to {
       transform: scale3d(1, 1, 1);
+    }
+  }
+
+
+  @media (max-width: 768px){
+    .intro h1{
+        font-size: 2em;
+        margin-top: 5em;
     }
   }
