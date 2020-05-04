@@ -296,6 +296,7 @@ nav ul a{
     position: relative;
     display: inline-block;
     animation: animate1 1s ease-in-out infinite;
+    animation-delay: calc(0.1s* var(--i));
 }
 
 
