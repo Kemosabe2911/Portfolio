@@ -261,14 +261,19 @@ nav ul a{
 
 .intro{
     text-align: center;
-    color: #000000;
-}
-.intro h1{
-    font-size: 4em;
+    color: #ffffff;
+    font-size: 3em;
     margin-top: 3em;
 }
-.intro h1 span{
+.intro  h1 span:hover{
+    transition: all 0.5s;
+    animation-name: rubberBand;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    color: #000000;
 }
+
+
 
 
 
@@ -304,9 +309,10 @@ nav ul a{
     }
   }
 
-
+/*Media Queries*/
   @media (max-width: 768px){
-    .intro h1{
+    .intro {
+        color: #ffffff;
         font-size: 2em;
         margin-top: 5em;
     }
