@@ -118,7 +118,7 @@ nav ul a{
     color: #000000;
     transition: 1s;
 }
-.menu .k-name a:hover{
+.menu .k-name a:hover,.menu .item:hover{
     animation-name: rubberBand;
     animation-duration: 2s;
     animation-delay: 0.5s;
@@ -265,11 +265,11 @@ nav ul a{
 .intro{
     text-align: center;
     color: #ffffff;
-    font-size: 2.6em;
     margin-top: 1em;
 }
 .intro h1{
     font-family: 'Bree Serif', serif;
+    font-size: 4.7em;
 }
 .intro  h1 span:hover{
     transition: all 0.5s;
