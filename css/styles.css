@@ -10,7 +10,7 @@ body{
 #Home{
     /*background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
     background-size: cover*/
-    position: absolute;
+    
     width: 100%;
     height: 100%;
     
@@ -291,6 +291,7 @@ nav ul a{
 #About{
     height: 100%;
     width: 100%;
+    margin-bottom: 0;
     background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
     background-size: cover;
     color: #000000;
