@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family: sans-serif;
@@ -44,16 +45,26 @@ nav ul a{
 }
 .toggle{
     order: 1;
+    transition: 0.5s;
 }
 .item{
     width: 100%;
     text-align: center;
-    order: 2;
+    order: 3;
     display: none;
     font-family: 'Noto Sans JP', sans-serif;
+    transition: 0.5s;
 }
 .item.active{
     display: block;
+}
+.image-1{
+    order: 2;
+}
+.image-1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 
@@ -103,6 +114,7 @@ nav ul a{
 
 
 
+
 @media(min-width: 768px){
     .item{
         display: block;
@@ -122,6 +134,9 @@ nav ul a{
     .menu li{
         padding: 15px 25px;
     } 
+    .image-1{
+        display: none;
+    }
 }
 
 
