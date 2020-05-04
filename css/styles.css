@@ -50,6 +50,7 @@ nav ul a{
     text-align: center;
     order: 2;
     display: none;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .item.active{
     display: block;

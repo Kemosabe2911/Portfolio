@@ -13,6 +13,7 @@ $(function() {
 
 
 //Close Button
+
 $(document).ready(function(){
     $('.toggle').click(function(){
         $('.toggle').toggleClass('close');
