@@ -347,29 +347,36 @@ nav ul a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 .about-section{
     background: url('https://scontent.fccj1-1.fna.fbcdn.net/v/t1.0-9/53921466_714985862231398_216298422792093696_o.jpg?_nc_cat=100&_nc_sid=dd7718&_nc_ohc=t-wPIbSOWcsAX-RbwNb&_nc_ht=scontent.fccj1-1.fna&oh=ed0bc2db5b3699b79b7fe44f75f63d87&oe=5ED625E6') no-repeat left;
     background-size: 55%;
-    background-color: #ffffff;
+    background-color: #000000;
     overflow: hidden;
     padding: 100px 0;
 }
 .about-section .inner-container{
     width: 55%;
     float: right;
-    background-color: #fdfdfd;
+    background-color: #000000;
     padding: 150px;
 }
 .about-section .inner-container h1{
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
+    color: #fdfdfd;
+}
+.line {
+    background: #545454;
+    width: 100px;
+    height: 1px;
+    margin-top: 30px auto;
 }
 .about-section .inner-container .text{
     font-size: 17px;
-    color: #545454;
+    color: #fdfdfd;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
@@ -435,6 +442,7 @@ nav ul a{
         padding: 0; 
         width: 100%; 
     }
+    
     .about-section .inner-container{
         width: 100%;
         padding: 60px;
