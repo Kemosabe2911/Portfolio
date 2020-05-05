@@ -265,7 +265,7 @@ nav ul a{
 .intro{
     text-align: center;
     color: #ffffff;
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
 .intro h1{
     font-family: 'Bree Serif', serif;
@@ -279,8 +279,8 @@ nav ul a{
     color: #000000;
 }
 .intro img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -299,7 +299,7 @@ nav ul a{
     animation-delay: calc(0.1s* var(--i));
 }
 
-
+/*Wavy ANimation*/
 @keyframes animate1{
     0%{
         transform: translateY(0px);
@@ -311,6 +311,31 @@ nav ul a{
         transform: translateY(0px);
     }
 }
+
+/*Contact Button*/
+.main-info-section .btn{
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 60px;
+    width: 240px;
+    line-height: 60px;
+    text-align: center;
+    border: 3px solid #B8002B;
+    text-decoration: none;
+    display: block;
+    margin: 50px auto;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    background: #FF1A4F;
+
+}
+
+.main-info-section .btn:hover{
+    animation: rubberBand 2s;
+}
+
+
 
 
 
