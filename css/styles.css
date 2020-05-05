@@ -419,10 +419,11 @@ nav ul a{
     .intro h1{
         color: #ffffff;
         font-size: 3em;
-        margin-top: 2.5em;
+        margin-top: 1.8em;
     }
     .intro img{
-        display: none;
+        height: 100px;
+        width: 100px;
     }
     .wavy{
         color: #ffffff;
