@@ -127,6 +127,7 @@ nav ul a{
 .logo a{
     font-size: 25px;
     font-weight: bold;
+    transition: 0.5s;
 }
 
 
