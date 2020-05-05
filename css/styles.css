@@ -6,6 +6,7 @@
 }
 body{
     font-family: sans-serif;
+    background: #000000;
 }
 #Home{
     /*background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
@@ -344,10 +345,12 @@ nav ul a{
 #About{
     height: 100%;
     width: 100%;
+    background-color: #000000;
+}
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
 }
 .about-section{
     background: url('https://scontent.fccj1-1.fna.fbcdn.net/v/t1.0-9/53921466_714985862231398_216298422792093696_o.jpg?_nc_cat=100&_nc_sid=dd7718&_nc_ohc=t-wPIbSOWcsAX-RbwNb&_nc_ht=scontent.fccj1-1.fna&oh=ed0bc2db5b3699b79b7fe44f75f63d87&oe=5ED625E6') no-repeat left;
@@ -381,6 +384,22 @@ nav ul a{
     text-align: justify;
     margin-bottom: 40px;
 }
+.home-btn{
+    text-align: center;
+    margin: 1em;
+}
+.home-btn a{
+    color: #000000;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 3em;
+}
+
+
+
+
+
 
 /*RuberBand Animation*/
 
