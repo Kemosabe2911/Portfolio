@@ -329,7 +329,7 @@ nav ul a{
     overflow: hidden;
     position: relative;
     background: #FF1A4F;
-
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .main-info-section .btn:hover{
