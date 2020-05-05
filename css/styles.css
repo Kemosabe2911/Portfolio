@@ -422,3 +422,22 @@ nav ul a{
         font-size: 1.1em;
     }
   }
+
+  @media (max-width: 1200px){
+      .inner-container{
+          padding: 80px;
+          width: 100%;
+      }
+  }
+  
+  @media (max-width: 768px){
+    .about-section{
+        padding: 0; 
+        width: 100%; 
+    }
+    .about-section .inner-container{
+        width: 100%;
+        padding: 60px;
+        float: none;
+    }
+}
