@@ -384,6 +384,13 @@ nav ul a{
     text-align: justify;
     margin-bottom: 40px;
 }
+.about-section .inner-container .specs{
+    display: flex;
+    justify-content: space-between;
+    color: #fdfdfd;
+    font-weight: 700;
+    font-size: 18px;
+}
 .home-btn{
     text-align: center;
     margin: 1em;
