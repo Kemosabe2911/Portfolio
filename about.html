@@ -19,13 +19,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet"> 
 </head>
 <body data-barba="wrapper">
-    <ul class="transition">
+    <!--<ul class="transition">
         <li></li>
         <li></li>
         <li></li>
         <li></li>
         <li></li>
-    </ul>
+    </ul>-->
+    <div class="loading-container">
+      <div class="loading-screen"></div>
+    </div>
     <nav class="navbar">
         <ul class="navbar-nav">
           <li class="logo">
@@ -326,7 +329,7 @@
     <!-- load gsap animation library (minified version) -->
     <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
     <!-- init barba with a simple opacity transition -->
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         barba.init({
           transitions: [{
             name: 'opacity-transition',
@@ -342,7 +345,7 @@
             }
           }]
         });
-      </script>
+      </script>-->
     <script src='js/main.js'></script>
 </body>
 </html>
