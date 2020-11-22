@@ -71,6 +71,13 @@ function pageTransition(){
     });
     tl.set(".loading-screen",{left: "-100%"});
 }
+
+function contentAnimation(){
+    var tl= gsap.timeline();
+
+    tl.to('.home-img',{clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)"})
+}
+
 barba.init({
     sync: true,
     transitions: [{
@@ -80,6 +87,12 @@ barba.init({
             pageTransition();
             await delay(1500);
             done();
+        },
+        async enter(data){
+            contentAnimation();
+        },
+        async once(data){
+            contentAnimation();
         }
     }]
 })
