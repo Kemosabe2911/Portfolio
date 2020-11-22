@@ -167,6 +167,8 @@
   .home-img{
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
       z-index: 0;
+      width: 350px;
+      height: 400px;
   }
 
   .loading-screen{
@@ -285,3 +287,10 @@
     display: block;
   }
   
+
+/*Home Section*/
+.home-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}

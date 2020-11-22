@@ -75,7 +75,7 @@ function pageTransition(){
 function contentAnimation(){
     var tl= gsap.timeline();
 
-    tl.to('.home-img',{clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)"})
+    tl.to('.home-img',{clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)", delay: 0.3})
 }
 
 barba.init({
