@@ -300,6 +300,7 @@
 .home-container .home-text{
   display: flex;
   flex-direction: column;
+  padding-top: 50px;
 }
 .home-container .home-text .hi{
   font-size: 50px;
@@ -334,6 +335,7 @@
   }
   .home-container .home-text{
     order: 2;
+    padding-top: 10px;
   }
   .home-container .home-img{
     width: 230px;
