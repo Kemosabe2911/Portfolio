@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
 :root {
     font-size: 16px;
     font-family: 'Open Sans';
@@ -294,8 +297,14 @@
   justify-content: space-around;
   padding: 50px;
 }
-.home-container .home-text h1{
+.home-container .home-text{
+  display: flex;
+  flex-direction: column;
+}
+.home-container .home-text .hi{
   font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
 }
 .home-container .home-text img{
   height: 40px;
@@ -303,10 +312,14 @@
 }
 .home-container .home-text .myname{
   font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
 }
 .home-container .home-text .webdev{
   text-transform: uppercase;
   font-size: 30px;
+  font-family: 'Goldman', cursive;
+  padding-left: 10px;
 }
 
 @media(max-width: 768px){
@@ -327,11 +340,12 @@
     height: 230px;
     border-radius: 0%;
   }
-  .home-container .home-text h1{
-    font-size: 28px;
+  .home-container .home-text .hi{
+    font-size: 30px;
+    padding-top: 10px;
   }
   .home-container .home-text .myname{
-    font-size: 25px;
+    font-size: 30px;
   }
   .home-container .home-text .webdev{
     font-size: 23px;
