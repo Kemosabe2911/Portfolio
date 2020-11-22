@@ -92,6 +92,12 @@
     min-width: 2rem;
     margin: 0 1.5rem;
   }
+  .nav-link i {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    font-size: 2rem;
+  }
   /*
   .fa-primary {
     color: #ff7eee;
