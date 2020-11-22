@@ -297,6 +297,10 @@
 .home-container .home-text h1{
   font-size: 50px;
 }
+.home-container .home-text img{
+  height: 40px;
+  width: 40px;
+}
 .home-container .home-text .myname{
   font-size: 40px;
 }
@@ -331,5 +335,9 @@
   }
   .home-container .home-text .webdev{
     font-size: 23px;
+  }
+  .home-container .home-text img{
+    width: 30px;
+    height: 30px;
   }
 }
