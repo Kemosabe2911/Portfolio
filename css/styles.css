@@ -294,3 +294,13 @@
   justify-content: space-around;
   padding: 50px;
 }
+.home-container .home-text h1{
+  font-size: 50px;
+}
+.home-container .home-text .myname{
+  font-size: 40px;
+}
+.home-container .home-text .webdev{
+  text-transform: uppercase;
+  font-size: 30px;
+}
