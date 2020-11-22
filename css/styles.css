@@ -49,6 +49,7 @@
     transition: width 600ms ease;
     overflow: scroll;
     z-index: 99;
+    font-family: 'Poppins', sans-serif;
   }
   
   .navbar-nav {
@@ -131,6 +132,7 @@
     font-size: 1.5rem;
     letter-spacing: 0.3ch;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
   }
   
   .logo svg {
