@@ -308,7 +308,6 @@
   font-size: 50px;
   font-family: 'Poppins', sans-serif;
   padding: 0;
-  color: var(--link-primary);
 }
 .home-container .home-text img{
   height: 40px;
@@ -318,14 +317,17 @@
   font-size: 40px;
   font-family: 'Poppins', sans-serif;
   padding: 10px;
+}
+.home-container .home-text .bold-name{
+  font-weight: bold;
   color: var(--link-primary);
+  font-size: 42px;
 }
 .home-container .home-text .webdev{
   text-transform: uppercase;
   font-size: 30px;
   font-family: 'Goldman', cursive;
   padding-left: 10px;
-  color: var(--link-primary);
 }
 
 @media(max-width: 768px){
@@ -341,6 +343,8 @@
   .home-container .home-text{
     order: 2;
     padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .home-container .home-img{
     width: 230px;
@@ -352,10 +356,13 @@
     padding-top: 10px;
   }
   .home-container .home-text .myname{
-    font-size: 30px;
+    font-size: 22px;
   }
   .home-container .home-text .webdev{
-    font-size: 23px;
+    font-size: 18px;
+  }
+  .home-container .home-text .bold-name{
+    font-size: 26px;
   }
   .home-container .home-text img{
     width: 30px;
