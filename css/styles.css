@@ -348,6 +348,10 @@
 .home-container .social a{
   text-decoration: none;
   color: var(--link-primary);
+  transition: 0.8s;
+}
+.home-container .social a:hover{
+  transform: rotate(360deg);
 }
 
 @media(max-width: 768px){
