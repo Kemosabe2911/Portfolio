@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
 :root {
     font-size: 16px;
@@ -306,7 +307,7 @@
 }
 .home-container .home-text .hi{
   font-size: 50px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Castoro', serif;
   padding: 0;
 }
 .home-container .home-text img{
@@ -315,17 +316,18 @@
 }
 .home-container .home-text .myname{
   font-size: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Castoro', serif;
   padding: 10px;
 }
 .home-container .home-text .bold-name{
   font-weight: bold;
+  font-family: 'Castoro', serif;
   color: var(--link-primary);
   font-size: 42px;
 }
 .home-container .home-text .webdev{
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Goldman', cursive;
   padding-left: 10px;
 }
