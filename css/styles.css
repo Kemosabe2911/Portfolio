@@ -175,6 +175,7 @@
       z-index: 0;
       width: 300px;
       height: 350px;
+      border-radius: 0% 20% 0% 20%;
   }
 
   .loading-screen{
@@ -368,7 +369,7 @@
   .home-container .home-img{
     width: 230px;
     height: 230px;
-    border-radius: 0%;
+    border-radius: 0% 15% 0% 15%;
   }
   .home-container .home-text .hi{
     font-size: 30px;
