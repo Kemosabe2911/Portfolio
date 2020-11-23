@@ -173,8 +173,8 @@
   .home-img{
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
       z-index: 0;
-      width: 350px;
-      height: 400px;
+      width: 300px;
+      height: 350px;
   }
 
   .loading-screen{
@@ -330,6 +330,23 @@
   font-size: 28px;
   font-family: 'Goldman', cursive;
   padding-left: 10px;
+}
+.home-container .home-text .contact{
+  font-size: 28px;
+  padding-left: 10px;
+  display: none;
+}
+.home-container .home-text .social{
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  color: var(--link-primary);
+}
+.home-container .social a{
+  text-decoration: none;
+  color: var(--link-primary);
 }
 
 @media(max-width: 768px){
