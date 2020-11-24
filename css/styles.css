@@ -386,10 +386,18 @@
   color: var(--link-primary);
   font-size: 35px;
   margin: 10px 20px;
+  transition: 0.4s;
+}
+.home-contact .contact-content .contact-item i:hover{
+  color: #ff008b;
 }
 .home-contact .contact-content .contact-item .contact-text{
   margin: 10px;
   font-size: 17px;
+  transition: 0.5s;
+}
+.home-contact .contact-content .contact-item .contact-text:hover{
+  color: var(--link-primary);
 }
 
 @media(max-width: 768px){
