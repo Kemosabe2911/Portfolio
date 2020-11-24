@@ -360,6 +360,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    padding-top: 20px;    
   }
   .home-container .image-container{
     order: 1;
@@ -372,7 +373,7 @@
   }
   .home-container .home-img{
     width: 230px;
-    height: 230px;
+    height: 280px;
     border-radius: 0% 15% 0% 15%;
   }
   .home-container .home-text .hi{
