@@ -366,24 +366,30 @@
   text-transform: uppercase;
   color: var(--link-primary);
 }
+.border{
+  width: 100px;
+  height: 2px;
+  background: var(--link-primary);
+}
 .home-contact .contact-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .home-contact .contact-content .contact-item{
-  margin: 20px 80px;
+  margin: 30px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .home-contact .contact-content .contact-item i{
   color: var(--link-primary);
-  font-size: 28px;
+  font-size: 35px;
   margin: 10px 20px;
 }
 .home-contact .contact-content .contact-item .contact-text{
   margin: 10px;
+  font-size: 17px;
 }
 
 @media(max-width: 768px){
