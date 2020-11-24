@@ -354,6 +354,38 @@
   transform: rotate(360deg);
 }
 
+.home-contact{
+  display: flex;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home-contact .contact-header{
+  font-size: 35px;
+  text-transform: uppercase;
+  color: var(--link-primary);
+}
+.home-contact .contact-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-contact .contact-content .contact-item{
+  margin: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-contact .contact-content .contact-item i{
+  color: var(--link-primary);
+  font-size: 28px;
+  margin: 10px 20px;
+}
+.home-contact .contact-content .contact-item .contact-text{
+  margin: 10px;
+}
+
 @media(max-width: 768px){
   .home-container{
     flex-direction: column;
