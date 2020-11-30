@@ -386,10 +386,14 @@
   color: var(--link-primary);
   font-size: 35px;
   margin: 10px 20px;
-  transition: 0.4s;
+  transition: 0.7s;
+  padding: 10px;
+  border-radius: 50%;
 }
 .home-contact .contact-content .contact-item i:hover{
-  color: #ff008b;
+  opacity: 0.9;
+  background-color: var(--link-primary);
+  color: #000000;
 }
 .home-contact .contact-content .contact-item .contact-text{
   margin: 10px;
