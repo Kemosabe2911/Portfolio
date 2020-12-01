@@ -363,6 +363,7 @@
 }
 .home-contact .contact-header{
   font-size: 35px;
+  font-family: 'Castoro', serif;
   text-transform: uppercase;
   color: var(--link-primary);
 }
