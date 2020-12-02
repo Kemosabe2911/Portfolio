@@ -467,6 +467,7 @@
 .about-container .about-content{
   display: flex;
   justify-content: space-around;
+  padding: 50px;
 }
 .about-container .about-content .about-header{
   display: flex;
@@ -474,4 +475,8 @@
   text-align: left;
   font-size: 6em;
   font-weight: bold;
+  color: var(--link-primary);
+}
+.about-container .about-content .about-box{
+  padding: 20px 50px;
 }
