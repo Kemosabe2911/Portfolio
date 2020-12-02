@@ -454,3 +454,24 @@
     margin: 10px 0px;
   }
 }
+
+
+/*About Section*/
+#about{
+  overflow: hidden;
+}
+.about-container{
+  display: flex;
+  flex-direction: column;
+}
+.about-container .about-content{
+  display: flex;
+  justify-content: space-around;
+}
+.about-container .about-content .about-header{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 6em;
+  font-weight: bold;
+}
