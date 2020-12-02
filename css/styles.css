@@ -394,7 +394,7 @@
 .home-contact .contact-content .contact-item i:hover{
   opacity: 0.9;
   background-color: var(--link-primary);
-  color: #000000;
+  color: var(--bg-primary);
 }
 .home-contact .contact-content .contact-item .contact-text{
   margin: 10px;
