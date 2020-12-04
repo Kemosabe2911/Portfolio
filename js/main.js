@@ -97,6 +97,8 @@ barba.init({
     }]
 })
 
+
+/*
 $(".info-content").owlCarousel({
     margin: 20,
     loop: true,
@@ -114,4 +116,4 @@ $(".info-content").owlCarousel({
             items: 3
         }
     }
-})
+})*/
