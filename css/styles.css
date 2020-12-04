@@ -479,10 +479,12 @@
   font-family: 'Castoro', serif;
 }
 .about-container .about-content .about-box{
-  padding: 100px 200px;
   text-align: center;
   border: 1px solid #ffffff;
   margin: 0px 100px;
+}
+.about-container .about-content .about-box-content{
+  padding: 100px 200px;
   font-size: 18px;
   line-height: 1.5;
   font-family: 'Castoro', serif;
@@ -491,6 +493,7 @@
 @media(max-width: 768px){
   .about-container .about-content{
     flex-direction: column;
+    padding: 20px;
   }
   .about-container .about-content .about-header{
     font-size: 50px;
@@ -500,8 +503,10 @@
   }
   .about-container .about-content .about-box{
     margin: 10px 0px;
-    padding: 20px;
+  }
+  .about-container .about-content .about-box-content{
+    padding: 30px 20px;
     font-size: 16px;
-    line-height: 1.1;
+    line-height: 1.5;
   }
 }
