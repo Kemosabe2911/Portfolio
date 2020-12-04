@@ -476,7 +476,14 @@
   font-size: 6em;
   font-weight: bold;
   color: var(--link-primary);
+  font-family: 'Castoro', serif;
 }
 .about-container .about-content .about-box{
-  padding: 20px 50px;
+  padding: 100px 200px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  margin: 0px 100px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Castoro', serif;
 }
