@@ -587,3 +587,35 @@
     line-height: 1.5;
   }
 }
+
+.about-info{
+  width: 100%;
+}
+
+.about-info .info-content{
+  padding: 80px 40px;
+}
+.about-info .info-content .info-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.info-img img{
+  width: 80px;
+  height: 80px;
+}
+.info-header{
+  font-size: 19px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.about-info .info-box .info-text{
+  font-size: 15px;
+  line-height: 1.3;
+  padding: 10px 30px;
+}
