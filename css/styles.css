@@ -487,3 +487,21 @@
   line-height: 1.5;
   font-family: 'Castoro', serif;
 }
+
+@media(max-width: 768px){
+  .about-container .about-content{
+    flex-direction: column;
+  }
+  .about-container .about-content .about-header{
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: left;
+    
+  }
+  .about-container .about-content .about-box{
+    margin: 10px 0px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.1;
+  }
+}
