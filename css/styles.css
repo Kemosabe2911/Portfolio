@@ -636,3 +636,12 @@
   width: 36px;
   background: var(--link-primary) !important;
 }
+
+@media(max-width: 768px){
+  .about-info .info-content{
+    padding: 0px;
+  }
+  .about-info .info-content .info-box{
+    padding-top: 0px ;
+  }
+}
