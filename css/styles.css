@@ -675,7 +675,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 60vw;
 }
 .skill-fe .skill-title{
   padding: 10px 0px;
@@ -696,11 +696,15 @@
   height: 200px;
   border: 2px solid #ffffff;
 }
-.skill-container .imgbox img{
+.skill-container .skill-box .imgbox img{
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+.skill-container .skill-box:nth-child(3) .imgbox img{
+  width: 160px;
+  height: 160px;
 }
