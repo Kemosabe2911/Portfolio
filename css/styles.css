@@ -656,3 +656,31 @@
     margin: 10px 50px;
   }
 }
+
+.skills-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skill-head{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  color: var(--link-primary);
+}
+.skill-fe{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+.skill-fe .skill-title{
+  padding: 10px 0px;
+  color: var(--link-primary);
+  display: flex;
+  justify-content: left;
+  font-size: 22px;
+}
