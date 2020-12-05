@@ -684,3 +684,23 @@
   justify-content: left;
   font-size: 22px;
 }
+.skill-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-container .skill-box{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ffffff;
+}
+.skill-container .imgbox img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
