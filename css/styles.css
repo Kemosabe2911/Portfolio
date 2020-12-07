@@ -671,13 +671,14 @@
   padding: 20px 0px;
   color: var(--link-primary);
 }
-.skill-fe{
+.skill-content{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 60vw;
+  width: 80vw;
+  padding-top: 20px;
 }
-.skill-fe .skill-title{
+.skill-content .skill-title{
   padding: 10px 0px;
   color: var(--link-primary);
   display: flex;
