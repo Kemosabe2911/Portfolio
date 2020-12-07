@@ -673,7 +673,7 @@
 }
 .skill-content{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 80vw;
   padding-top: 20px;
@@ -684,6 +684,7 @@
   display: flex;
   justify-content: left;
   font-size: 22px;
+  font-family: 'Castoro', serif;
 }
 .skill-container{
   display: flex;
@@ -708,4 +709,16 @@
 .skill-container .skill-box:nth-child(3) .imgbox img{
   width: 160px;
   height: 160px;
+}
+
+.skill-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+}
+.skill-img img{
+  width: 70px;
+  height: 70px;
+  margin: 30px;
 }
