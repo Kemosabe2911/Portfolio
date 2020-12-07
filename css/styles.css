@@ -657,6 +657,10 @@
   }
 }
 
+#skills{
+  overflow-x: hidden
+}
+
 .skills-container{
   display: flex;
   justify-content: center;
@@ -711,6 +715,11 @@
   height: 160px;
 }
 
+.skill-body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .skill-img{
   display: flex;
   flex-wrap: wrap;
@@ -721,4 +730,67 @@
   width: 70px;
   height: 70px;
   margin: 30px;
+}
+.skills-bar{
+  width: 600px;
+  border-radius: 10px;
+  padding: 25px 30px;
+  box-shadow: 1px 1px 2px var(--link-primary);
+}
+.skills-bar .bar{
+  margin: 20px 0;
+}
+.skills-bar .bar:first-child{
+  margin-top: 0px;
+}
+.skills-bar .bar .bar-info{
+  margin-bottom: 5px;
+}
+.skills-bar .bar .bar-info span{
+  font-size: 17px;
+  font-weight: 500;
+}
+.skills-bar .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  background: var(--text-primary);
+}
+.skills-bar .bar .progress-line span{
+  height: 100%;
+  width: 80%;
+  background: var(--link-primary);
+  position: absolute;
+  border-radius: 10px;
+}
+.skills-bar .bar .progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: var(--link-primary);
+}
+.skills-bar .bar .progress-line span::after{
+  position: absolute;
+  content: "80%";
+  top: -26px;
+  right: 0;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 3px;
+  background: var(--link-primary);
+}
+
+@media(max-width: 768px){
+  .skill-body{
+    flex-direction: column;
+  }
 }
