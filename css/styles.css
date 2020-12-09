@@ -729,7 +729,11 @@
 .skill-img img{
   width: 70px;
   height: 70px;
-  margin: 30px;
+  margin: 20px;
+}
+.skill-img img.expjs{
+  width: 100px;
+  height: 70px;
 }
 .skills-bar{
   width: 600px;
