@@ -838,6 +838,20 @@
 .skills-bar .bar .progress-line.reactjs span::after{
   content: "45%";
 }
+.skills-bar .bar .progress-line.c span::after{
+  content: "90%";
+}
+.skills-bar .bar .progress-line.cpp span::after{
+  content: "85%";
+}
+.skills-bar .bar .progress-line.python span::after{
+  content: "85%";
+}
+.skills-bar .bar .progress-line.java span::after{
+  content: "35%";
+}
+
+
 .skills-bar .bar .progress-line.html span{
   width: 90%;
 }
@@ -862,6 +876,19 @@
 .skills-bar .bar .progress-line.reactjs span{
   width: 45%;
 }
+.skills-bar .bar .progress-line.c span{
+  width: 90%;
+}
+.skills-bar .bar .progress-line.cpp span{
+  width: 85%;
+}
+.skills-bar .bar .progress-line.python span{
+  width: 85%;
+}
+.skills-bar .bar .progress-line.java span{
+  width: 35%;
+}
+
 
 @media(max-width: 768px){
   .skill-body{
