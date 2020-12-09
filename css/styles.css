@@ -829,6 +829,15 @@
 .skills-bar .bar .progress-line.jquery span::after{
   content: "55%";
 }
+.skills-bar .bar .progress-line.nodejs span::after{
+  content: "75%";
+}
+.skills-bar .bar .progress-line.expressjs span::after{
+  content: "85%";
+}
+.skills-bar .bar .progress-line.reactjs span::after{
+  content: "45%";
+}
 .skills-bar .bar .progress-line.html span{
   width: 90%;
 }
@@ -843,6 +852,15 @@
 }
 .skills-bar .bar .progress-line.jquery span{
   width: 55%;
+}
+.skills-bar .bar .progress-line.nodejs span{
+  width: 75%;
+}
+.skills-bar .bar .progress-line.expressjs span{
+  width: 85%;
+}
+.skills-bar .bar .progress-line.reactjs span{
+  width: 45%;
 }
 
 @media(max-width: 768px){
@@ -859,6 +877,10 @@
   .skill-img img{
     margin: 15px;
     width: 35px;
+    height: 35px;
+  }
+  .skill-img img.expjs{
+    width: 70px;
     height: 35px;
   }
   .skills-bar{
