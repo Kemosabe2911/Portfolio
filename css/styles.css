@@ -854,6 +854,8 @@
   }
   .skill-img img{
     margin: 15px;
+    width: 35px;
+    height: 35px;
   }
   .skills-bar{
     width: 80vw;
