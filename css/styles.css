@@ -733,7 +733,8 @@
 }
 .skill-img img.expjs{
   width: 100px;
-  height: 70px;
+  height: 50px;
+  padding-top: 10px;
 }
 .skills-bar{
   width: 600px;
@@ -903,12 +904,13 @@
   }
   .skill-img img{
     margin: 15px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
   .skill-img img.expjs{
     width: 70px;
-    height: 35px;
+    height: 30px;
+    padding-top: 5px;
   }
   .skills-bar{
     width: 80vw;
