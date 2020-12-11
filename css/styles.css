@@ -260,6 +260,9 @@
     --bg-secondary: #141418;
     --link-primary: #33ffff;
     --link-secondary: #66ffff;
+    --skill-primary: #66ffff;
+    --skill-secondary: #141418;
+    --skill-bg: #b6b6b6;
   }
   
   .light {
@@ -269,6 +272,9 @@
     --bg-secondary: #e4e4e4;
     --link-primary: #0a87fc;
     --link-secondary: #0779e4;
+    --skill-primary: #0779e4;
+    --skill-secondary: #ffffff;
+    --skill-bg: #e4e4e4;
   }
   
   .solar {
@@ -278,6 +284,9 @@
     --bg-secondary: #f5e5b8;
     --link-primary: #1f1f1f;
     --link-secondary: #000000;
+    --skill-primary: #000000;
+    --skill-secondary: #ffffff;
+    --skill-bg: #576e75;
   }
   
   .theme-icon {
@@ -760,7 +769,7 @@
   width: 100%;
   position: relative;
   border-radius: 10px;
-  background: var(--text-primary);
+  background: var(--skill-bg);
   transform: scaleX(0);
   transform-origin: left;
   animation: progress 1s cubic-bezier(1,0,0.5,1) forwards;
@@ -768,7 +777,7 @@
 .skills-bar .bar .progress-line span{
   height: 100%;
   width: 80%;
-  background: var(--link-primary);
+  background: var(--skill-primary);
   position: absolute;
   border-radius: 10px;
   transform: scaleX(0);
@@ -790,7 +799,7 @@
   border: 7px solid transparent;
   border-bottom-width: 0px;
   border-right-width: 0px;
-  border-top-color: var(--link-primary);
+  border-top-color: var(--skill-primary);
   opacity: 0;
   animation: showText 0.5s 1.5s linear forwards;
 }
@@ -799,12 +808,12 @@
   content: "80%";
   top: -26px;
   right: 0;
-  color: #000000;
+  color: var(--skill-secondary);
   font-size: 12px;
   font-weight: 500;
   padding: 2px 8px;
   border-radius: 3px;
-  background: var(--link-primary);
+  background: var(--skill-primary);
   opacity: 0;
   animation: showText 0.5s 1.5s linear forwards;
 }
