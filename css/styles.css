@@ -851,6 +851,12 @@
 .skills-bar .bar .progress-line.java span::after{
   content: "35%";
 }
+.skills-bar .bar .progress-line.mongodb span::after{
+  content: "50%";
+}
+.skills-bar .bar .progress-line.psql span::after{
+  content: "85%";
+}
 
 
 .skills-bar .bar .progress-line.html span{
@@ -889,7 +895,12 @@
 .skills-bar .bar .progress-line.java span{
   width: 35%;
 }
-
+.skills-bar .bar .progress-line.mongodb span{
+  width: 50%;
+}
+.skills-bar .bar .progress-line.psql span{
+  width: 85%;
+}
 
 @media(max-width: 768px){
   .skill-body{
