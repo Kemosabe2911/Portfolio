@@ -857,7 +857,15 @@
 .skills-bar .bar .progress-line.psql span::after{
   content: "85%";
 }
-
+.skills-bar .bar .progress-line.pshop span::after{
+  content: "40%";
+}
+.skills-bar .bar .progress-line.git span::after{
+  content: "75%";
+}
+.skills-bar .bar .progress-line.flutter span::after{
+  content: "40%";
+}
 
 .skills-bar .bar .progress-line.html span{
   width: 90%;
@@ -900,6 +908,15 @@
 }
 .skills-bar .bar .progress-line.psql span{
   width: 85%;
+}
+.skills-bar .bar .progress-line.pshop span{
+  width: 40%;
+}
+.skills-bar .bar .progress-line.git span{
+  width: 75%;
+}
+.skills-bar .bar .progress-line.flutter span{
+  width: 45%;
 }
 
 @media(max-width: 768px){
