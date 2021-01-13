@@ -959,3 +959,36 @@
     padding-bottom: 80px;
   }
 }
+
+
+/*Projects*/
+.p-container{
+  width: 90vw;
+  margin: auto;
+}
+.p-container .p-content{
+  width: 60vw;
+  margin: auto;
+  border: 2px solid var(--link-primary);
+  padding: 20px;
+}
+.p-head{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  color: var(--link-primary);
+}
+.p-content .p-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.p-content .p-header .p-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
