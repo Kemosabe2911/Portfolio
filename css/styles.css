@@ -873,7 +873,7 @@
   content: "75%";
 }
 .skills-bar .bar .progress-line.flutter span::after{
-  content: "40%";
+  content: "25%";
 }
 
 .skills-bar .bar .progress-line.html span{
@@ -925,7 +925,7 @@
   width: 75%;
 }
 .skills-bar .bar .progress-line.flutter span{
-  width: 45%;
+  width: 25%;
 }
 
 @media(max-width: 768px){
