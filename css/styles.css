@@ -970,7 +970,18 @@
   width: 60vw;
   margin: auto;
   border: 2px solid var(--link-primary);
-  padding: 20px;
+  padding: 10px 20px;
+  color: var(--link-primary);
+  transition: 0.8s;
+  margin: 20px auto;
+}
+.p-container .p-content:hover{
+  background-color: var(--link-primary);
+  border-color: var(--bg-primary);
+  color: var(--bg-primary);
+}
+.p-container .p-content:hover .p-links a{
+  color: var(--bg-primary);
 }
 .p-head{
   text-align: center;
@@ -985,10 +996,24 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 25px;
 }
 .p-content .p-header .p-links{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+}
+.p-content .p-header .p-links a{
+  color: var(--link-primary);
+  text-decoration: none;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.p-content .p-header .p-links a:hover{
+  opacity: 0.8;
+}
+.p-content .p-body{
+  font-size: 17px;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
