@@ -981,7 +981,8 @@
   color: var(--bg-primary);
 }
 .p-container .p-content:hover .p-links a{
-  color: var(--bg-primary);
+  color: var(--link-primary);
+  background-color: var(--bg-primary);
 }
 .p-head{
   text-align: center;
@@ -1002,12 +1003,20 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0px 20px;
 }
 .p-content .p-header .p-links a{
-  color: var(--link-primary);
+  background-color: var(--link-primary);
+  color: var(--bg-primary);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   transition: 0.5s;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+.p-content .p-header .p-links i{
+  border-radius: 50%;
+  padding: 10px;
 }
 .p-content .p-header .p-links a:hover{
   opacity: 0.8;
