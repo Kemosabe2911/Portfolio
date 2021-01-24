@@ -927,8 +927,15 @@
 .skills-bar .bar .progress-line.flutter span{
   width: 25%;
 }
+.skill-banner img{
+  height: 300px;
+  width: 100%;
+}
 
 @media(max-width: 768px){
+  .skill-banner img{
+    height: 150px;
+  }
   .skill-body{
     flex-direction: column;
     justify-content: space-around;
@@ -965,6 +972,7 @@
 .p-container{
   width: 90vw;
   margin: auto;
+  margin-bottom: 100px;
 }
 .p-container .p-content{
   width: 60vw;
@@ -984,13 +992,15 @@
   color: var(--link-primary);
   background-color: var(--bg-primary);
 }
-.p-head{
-  text-align: center;
+.p-head img{
+  /*text-align: center;
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
   padding: 20px 0px;
-  color: var(--link-primary);
+  color: var(--link-primary);*/
+  height: 300px;
+  width: 100%;
 }
 .p-content .p-header{
   display: flex;
@@ -1016,7 +1026,7 @@
 }
 .p-content .p-header .p-links i{
   border-radius: 50%;
-  padding: 10px;
+  padding: 6px;
 }
 .p-content .p-header .p-links a:hover{
   opacity: 0.8;
@@ -1025,4 +1035,12 @@
   font-size: 17px;
   padding-top: 0px;
   padding-bottom: 20px;
+}
+@media(max-width: 768px){
+  .p-head img{
+    height: 150px;
+  }
+  .p-container .p-content{
+    width: 70vw;
+  }
 }
