@@ -605,7 +605,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin: 50px 0px;
 }
 .about-info .box{
   position: relative;
@@ -613,7 +613,7 @@
   height: 350px;
   margin: 20px;
   padding: 20px;
-  box-shadow: 0px 30px 50px var(--about-shadow);
+  box-shadow: 0px 20px 40px var(--about-shadow);
   font-family: 'Poppins','sans-serif';
 }
 .about-info .box .tile1{
