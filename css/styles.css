@@ -51,9 +51,10 @@
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 600ms ease;
-    overflow: scroll;
+    overflow: hidden;
     z-index: 99;
     font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 2px 2px var(--bg-secondary);
   }
   
   .navbar-nav {
@@ -896,9 +897,13 @@
 .skills-bar .bar .progress-line.nodejs span::after{
   content: "75%";
 }
-.skills-bar .bar .progress-line.expressjs span::after{
-  content: "85%";
+.skills-bar .bar .progress-line.nestjs span::after{
+  content: "35%";
 }
+.skills-bar .bar .progress-line.golang span::after{
+  content: "90%";
+}
+
 .skills-bar .bar .progress-line.reactjs span::after{
   content: "45%";
 }
