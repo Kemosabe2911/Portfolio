@@ -627,6 +627,7 @@
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+  text-align: center;
 }
 .about-info .box .tile1 h2{
   font-weight: bold;
@@ -991,6 +992,14 @@
   width: 100%;
 }
 
+.skill-banner h1 {
+  text-align: left;
+  font-size: 5.5em;
+  font-weight: bold;
+  color: var(--link-primary);
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 @media(max-width: 768px){
   .skill-banner img{
     height: 150px;
@@ -1063,6 +1072,19 @@
   height: 300px;
   width: 100%;
 }
+
+.p-head {
+  text-align: center;
+}
+
+.p-head h1 {
+  text-align: center;
+  font-size: 5.5em;
+  font-weight: bold;
+  color: var(--link-primary);
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 .p-content .p-header{
   display: flex;
   flex-direction: row;
